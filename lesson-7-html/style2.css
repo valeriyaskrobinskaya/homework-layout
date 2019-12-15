@@ -1,0 +1,13 @@
+ul {
+  font-size: 30px;
+  font-weight: normal;
+}
+a[href$="ru"] {
+  color: #f70;
+}
+a[href*="google"] {
+  color: #666;
+}
+.new_window:after {
+  content: '\21F1'; color: #ff7700;
+}
