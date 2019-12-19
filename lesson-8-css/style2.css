@@ -6,6 +6,7 @@ nav {
   background-color: #A64DFF;
   width: 1031px;
   font-family: 'Oswald', sans-serif;
+  font-size: 16px;
 }
 nav ul {
   list-style-type: none;
@@ -27,9 +28,9 @@ nav li {
   color: #A0A0A0;
 }
 ul > li:last-child {
- /*margin-left: 400px;*/
-  margin-right: 50px;
+  margin-left: 260px;
+  margin-right: 55px;
 }
 ul > li:first-child {
-  margin-left: 60px;
+  margin-left: 55px;
 }
