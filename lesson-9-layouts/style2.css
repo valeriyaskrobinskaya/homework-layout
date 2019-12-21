@@ -1,0 +1,33 @@
+body{
+  width: 100%;
+}
+nav {
+  background-color: #FAFAFA;
+  line-height: 40px
+  }
+ul {
+  list-style-type: none;
+}
+/*li:nth-child(odd):first-child {*/
+
+/*}*/
+/*li:nth-child(even):first-child{*/
+/*  background-color: black;*/
+/*}*/
+li {
+  display: inline;
+  background-color: #FAFAFA;
+  color: #C060DE;
+  border: solid 1px #DDDDDD;
+  border-radius: 10px;
+  padding: 10px 16px;
+  margin: 5px 5px;
+}
+li:hover {
+  background-color: #C060DE;
+  border: solid 1px #7C12BC;
+  border-radius: 10px;
+  color: #FAFAFA;
+  cursor: pointer
+
+}
