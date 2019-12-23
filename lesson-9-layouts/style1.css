@@ -1,38 +1,48 @@
 input {
-  display: none;
+  visibility: hidden;
 }
 label {
-  color: red;
-  text-decoration: underline red;
+  margin: 5px 10px;
   cursor: pointer;
 }
-/*.red {*/
-/*  display: none;*/
-/*}*/
-/*.blue {*/
-/*  display: none;*/
-/*}*/
-/*.green {*/
-/*  display: none;*/
-/*}*/
-.red {
-  background-color: red;
-  color: white;
-  padding: 5px 5px;
-  margin: 2px 2px;
-  border-radius: 10px;
+label[for="red"] {
+  color: red;
+  text-decoration: underline red;
 }
-.blue {
-  background-color: blue;
-  color: white;
-  padding: 5px 5px;
-  margin: 2px 2px;
+label[for="green"] {
+  color: green;
+  text-decoration: underline green;
+}
+label[for="blue"] {
+  color: blue;
+  text-decoration: underline blue;
+}
+span {
   border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px 5px;
+}
+.red {
+  background-color: red
 }
 .green {
   background-color: green;
-  color: white;
-  padding: 5px 5px;
-  margin: 2px 2px;
-  border-radius: 10px;
+}
+.blue {
+  background-color: blue;
+}
+#red:checked ~ .red, #green:checked ~ .green, #blue:checked ~.blue {
+  display: none;
+}
+#red:checked ~ label[for="red"] {
+  color: plum;
+  text-decoration: underline plum;
+}
+#green:checked ~ label[for="green"] {
+  color: darkolivegreen;
+  text-decoration: underline darkolivegreen;
+}
+#blue:checked ~ label[for="blue"] {
+  color: cadetblue;
+  text-decoration: underline cadetblue;
 }
