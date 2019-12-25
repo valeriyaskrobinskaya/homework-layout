@@ -1,0 +1,36 @@
+
+body {
+  width: 100%
+}
+nav {
+  background-color: #A64DFF;
+  width: 1031px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+}
+.menu{
+  padding: 0;
+}
+.menu li a {
+  padding: 10px 16px;
+  color: white;
+  text-decoration: none;
+  line-height: 40px;
+}
+.menu li a:hover {
+  background-color: #EEEEEE;
+  color: #A0A0A0;
+}
+ul > li:last-child {
+  margin-left: 260px;
+  margin-right: 55px;
+}
+ul > li:first-child {
+  margin-left: 55px;
+}

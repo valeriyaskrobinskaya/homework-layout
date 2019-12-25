@@ -1,0 +1,6 @@
+tr:nth-child(2n+2){
+  background-color: #ddebf6;
+}
+td:nth-child(n+2) ~ td:nth-child(2n+1){
+  background-color: #f2f1dd;
+}
