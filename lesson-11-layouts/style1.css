@@ -154,7 +154,5 @@ div {
   background: #2f70a8;
   box-shadow: #13426b 0 3px 0 0;
 }
-div.ultimate, div.best-value, div.standart {
-  float: left;
-}
+
 
