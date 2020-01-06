@@ -2,30 +2,44 @@ body {
   background: #000000;
   font-family: 'Poppins', sans-serif;
 }
-img {
-  width: 100px;
-  height: 100px;
-}
+
 h1 {
   text-align: center;
   text-transform: uppercase;
   font-size: 40px;
   color: #3170A6;
+  font-weight: normal;
+  margin: 30px auto;
 }
 
-span {
+h1 > span {
   color: #EE8129;
 }
 
-div {
+.container {
+  width: 46%;
+  min-width: 350px;
   display: inline-block;
+  margin: 10px 20px;
+}
+img {
+  height: 100px;
+  float: left;
 }
 
-div.triangle {
-  width: 1px;
-  border: 10px solid;
-  border-color: transparent white transparent transparent ;
+.feedback {
+  margin-left: 120px;
+  background-color: white;
+  padding: 13px;
+  font-size: 13px;
+  position: relative;
 }
-p {
-  background: white;
+.feedback::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 35px;
+  border: 10px solid;
+  border-color: transparent white transparent transparent;
+
 }
