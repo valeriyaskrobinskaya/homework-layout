@@ -1,1 +1,4 @@
-/* Write your code here */
+#plans-overview {
+  background: url("../images/plans-background.jpg") left 10% bottom 20%/cover no-repeat border-box,
+  #ff1b68;
+}
