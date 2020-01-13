@@ -1,3 +1,45 @@
-#customers-overview {
-  width: 100%;
+.customers{
+  list-style-type: none;
+  padding: 0;
+  margin-top: 50px;
 }
+
+.customer {
+  display: inline-block;
+  margin: 15px 0;
+}
+
+.customer-photo {
+  width: 55%;
+  box-shadow: 4px 4px 19px -5px rgba(0, 0, 0, 0.94);
+}
+
+.customer-anotation {
+  width: 40%;
+  padding: 14% 5%;
+}
+
+.customer-name {
+  color: #d83f2d;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 5px;
+}
+
+.customer-reason {
+  color: #b2b2b0;
+  font-size: 15px;
+  margin: 5px;
+}
+ .customer-feedback {
+   color: #201a19;
+   margin-left: 5px;
+ }
+
+ .customer-anotation {
+   float: right;
+ }
+
+ .customer:nth-child(even) .customer-photo{
+   float: right;
+ }
