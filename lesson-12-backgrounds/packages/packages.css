@@ -1,0 +1,73 @@
+#plans-overview {
+  background: url("../images/plans-background.jpg") left 10% bottom 20%/cover no-repeat border-box,
+  #ff1b68;
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin-top: 50px;
+  margin-bottom: -50px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 30px 0 0;
+}
+li {
+  margin-right: 30%;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #201a19;
+}
+
+.plan-item {
+  background-color: rgba(178, 178, 176, 0.9);;
+  padding: 15px;
+  margin: 20px 0;
+  border: 3px solid #916b64;
+}
+
+.plan-item:nth-child(even){
+  border-right: none;
+  float: right;
+}
+
+.plan-item:nth-child(odd){
+  border-left: none;
+}
+
+p {
+  background-color: #fbfbf8;
+  border: 2px solid #916b64;
+  padding: 10px;
+}
+
+span {
+  text-align: right;
+  padding: 8px;
+  font-size: 13px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fbfbf8;
+  background-color: #d83f2d;
+  float: right;
+  margin-right: 10px;
+  margin-top: -10px;
+}
+
+.plan-item:hover {
+  background-color: rgba(145, 107, 100, 0.9);
+}
+
+.plan-item:hover h1 {
+  color: #fbfbf8;
+}
+
+.plan-item:hover h2 {
+  color: #b2b2b0;
+}
