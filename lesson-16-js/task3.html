@@ -5,6 +5,23 @@
   <title>Task3</title>
 </head>
 <body>
+  <script>
+    'use strict'
+
+    function pow(x, n) {
+      var result = 1;
+      if (n === 0) {
+        return result;
+      } else {
+        for (var i = 1; i <= n; i++) {
+          result *= x;
+        }
+        return  result;
+      }
+    }
+
+    console.log(pow(3, 2));
+  </script>
 
 </body>
 </html>
